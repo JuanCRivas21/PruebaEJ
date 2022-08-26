@@ -1,13 +1,8 @@
+numero, numero2,numero3;
+numero= 25;
+numero2 = 15;
+numero3= 21;
+alert(numero);
+alert(numero2);
+alert(numero3);
 
-let numero1 = 15;
-const numero2= 11;
-
-function prueba() { 
-    var numero = 10;
-    numero1=5
-     console.log(numero,numero1,numero2) 
-  }
-  
-  console.log(numero1,numero2)
-
-  prueba();
