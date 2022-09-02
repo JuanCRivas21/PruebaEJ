@@ -1,73 +1,54 @@
-valor = prompt ("Hola, qué tal?, por favor ingresa tu nota");
 
-promedio = parseInt(valor, 10)
+//El dueño de una tienda para mascotas necesita un programa donde los clientes e
+//escriben el tipo de máscota que son
+ //(reptil, felino, canino, aves, roedores) una vez escrito, 
+ //el programa sugerirá las mejores marcas de comida.
 
+/*const mascota = prompt ('Hola, ingresa tu mascota')
 
- //verificar que promedio no es una letra
-  if (typeof promedio === 'number'){
-    verificando()   
+const boton = prompt ('Presiona S si te quieres detener')
+
+while (boton === 's' && boton === 'S') {
+       console.log('hola')
+        const msj = prompt ('prueba')
+    // código
+    // llamado "cuerpo del bucle"
   }
-    else if (typeof promedio ==='string'){
-        alert('ingresa un número valido')
-    }
- 
 
-function verificando (){
-    if (promedio <= 2.0 ) {
-        alert('Tu promedio es deficiente, te invito a mejorar')
-    }
+switch (mascota){
+    case 'felino':
+    case 'reptil':
+        console.log('purina')
+    break;
     
-    if (promedio >= 2.1 && promedio <= 3.0 ) {
-       alert('tu promedio es bajo, ánimo puedes mejorar')
-    } 
+ /*   case 'reptil':
+        console.log('carne')
+    break;
+
+
+    case '1':
+        console.log('croqueta')
+    break;
+
+    case 3:
+      console.log('soy un numero')
+    break;
+
+
+    default:
+       console.log('no tenemos informacion de tu mascota')
+    break;
+}
+*/
+/*let boton = 'm';
+let valor = 0;
+while(boton.toLowerCase() !=='s'){
+
+    const message = prompt('Mayuscula');
     
-    if (promedio >= 3.1 && promedio <= 4.0 ){
-        alert('tu promedio es aceptable')
-    }
-    
-    if (promedio >= 4.1 && promedio <= 4.5){
-        alert('Tu promedio es alto, felicidades')
-    }
-    
-    if (promedio >= 4.6 && promedio <= 5.0 ){
-        alert('Que gran promedio tienes, impresionante. Felicidades')
-    }
-    
-    else if (promedio >= 5.1){
-        alert('ingresa una nota real')
-    
-    }
- alert('me estoy ejecutando')
-   
+    alert(message.toLowerCase());
+    //!!Switch Se va a repetirt
+    boton = prompt('Presiona s Si quieres parar');
+    valor++;
 }
- 
-
-
-/*
-if (promedio <= 2.0 ) {
-    alert('Tu promedio es deficiente, te invito a mejorar')
-}
-
-if (promedio >= 2.1 && promedio <= 3.0 ) {
-   alert('tu promedio es bajo, ánimo puedes mejorar')
-} 
-
-if (promedio >= 3.1 && promedio <= 4.0 ){
-    alert('tu promedio es aceptable')
-}
-
-if (promedio >= 4.1 && promedio <= 4.5){
-    alert('Tu promedio es alto, felicidades')
-}
-
-if (promedio >= 4.6 && promedio <= 5.0 ){
-    alert('Que gran promedio tienes, impresionante. Felicidades')
-}
-
-else if (promedio >= 5.1){
-    alert('ingresa una nota real')
-
-}
-
-console.log(typeof promedio)
 */
