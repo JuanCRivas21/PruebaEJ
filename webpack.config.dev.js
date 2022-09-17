@@ -6,8 +6,8 @@ module.exports = {
   entry: "./src/index.js",
   devServer: {
     static: "./dist",
-    liveReload: false,
-    hot: false,
+    liveReload: true,
+    hot: true,
   },
   resolve: {
     extensions: [".js", ".json"],
